@@ -37,11 +37,14 @@
 
 .mainnav {
     position: sticky;
-    border: radius 5rem;
-    background-color: #acacef;
     top: 0;
-    z-index: 10;
-    margin: top -15px;
+    z-index: 1000;
+    margin: 15px;
+    width: calc(100% - 30px);
+    background-color: #acacef;
+    border-radius: 0.5rem;
+    padding: 8px 16px;
+    box-sizing: border-box;
 }
 
 .title{
