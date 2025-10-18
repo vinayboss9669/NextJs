@@ -8,6 +8,8 @@ import styles from '../styles/home.module.css';
 //step2: Iterate through them and display them
 
 const Blog = () => {
+   
+    
     const [animatedPosts, setAnimatedPosts] = useState([]);
     
     // Blog posts data
