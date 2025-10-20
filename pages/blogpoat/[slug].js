@@ -428,3 +428,42 @@ const BlogPost = () => {
 };
 
 export default BlogPost;
+
+
+// export async function getStaticPaths() {
+//   return {
+//     paths: [
+//       { params: { slug: "how-to-learn-flask" } },
+//       { params: { slug: "how-to-learn-javascript-2025" } },
+//       { params: { slug: "how-to-learn-nextjs" } },
+
+//       // Add more pre-rendered paths here if needed
+//     ],
+//     fallback: true, // or 'blocking' if you prefer
+//   };
+// }
+
+// export async function getStaticProps(context){
+//     const { slug } = context.params;
+//     const res = await fetch(`http://localhost:3000/api/getblog?slug=${slug}`);
+
+
+//     let myblog=await res.json();
+
+//     return {
+//       props:{
+//         myblog
+//       }
+//     }
+
+    // let myblog=await fs.promise.readFile(`panda/blogdata/${slug}.json`,'utf-8');
+
+    // return {
+    //     props:{
+    //        myblog: JSON.parse(myblog)
+    //     }
+    // }
+// }
+
+//cdn se easy and fast render 
+//out floder use it beacuse its fast render the file of browser

@@ -178,3 +178,27 @@ const Blog = () => {
 };
 
 export default Blog;
+
+
+// //serverside props s
+// export async function getServerSideProps(context){
+//     console.log(context.req.url);
+//     const { slug } =context.query;
+
+//     fetch(`http://localhost:3000/api/getblog?slug=${slog}`).then((a)=>{
+//         return a.json();
+//     })
+//     .then((parsed)=>{
+//         setBlog(parsed)
+//     })
+
+//     return {
+//         props: { slug },
+//     };
+
+
+
+// }
+
+
+
