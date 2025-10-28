@@ -368,3 +368,6 @@ const Contact = () => {
 export default Contact;
 //this is contact page
 //i am change this some time after
+//seaarch console use for hostings
+//digital losen
+//

@@ -96,6 +96,168 @@ const BlogPost = () => {
         },
       ],
     },
+    "how-to-learn-flask-2025": {
+      title: "How to Learn JavaScript in 2025",
+      date: "October 16, 2025",
+      author: "Alex Chen",
+      authorImage: "/author.jpg",
+      coverImage: "/coder.avif",
+      category: "JavaScript",
+      readTime: "8 min read",
+      content: [
+        {
+          type: "paragraph",
+          text: "JavaScript continues to evolve rapidly, and in 2025, it remains one of the most essential skills for web developers. With the release of ECMAScript 2025, new features have made the language even more powerful and developer-friendly.",
+        },
+        {
+          type: "heading",
+          text: "Start with the Fundamentals",
+        },
+        {
+          type: "paragraph",
+          text: "Despite all the frameworks and libraries available, understanding core JavaScript concepts is still crucial. Variables, functions, loops, and objects form the backbone of your JavaScript knowledge.",
+        },
+        {
+          type: "code",
+          language: "javascript",
+          text: `// Modern variable declarations
+            const user = {
+            name: 'Sarah',
+            skills: ['JavaScript', 'React', 'Node.js'],
+            isActive: true
+            };
+
+            // Using optional chaining and nullish coalescing
+            const skill = user?.skills[0] ?? 'No skills found';
+
+            // Using modern array methods
+            const activeSkills = user.skills.filter(skill => 
+            skill.startsWith('R')).map(skill => skill.toUpperCase());
+            `,
+        },
+        {
+          type: "heading",
+          text: "Learn Modern Frameworks",
+        },
+        {
+          type: "paragraph",
+          text: "After mastering the basics, dive into frameworks like React 20, Angular 17, or Vue 5. These frameworks have evolved significantly since their earlier versions and offer powerful tools for building complex applications.",
+        },
+        {
+          type: "image",
+          src: "/framework.jpg",
+          alt: "Modern JavaScript frameworks",
+          caption:
+            "The JavaScript framework landscape has evolved dramatically by 2025",
+        },
+        {
+          type: "heading",
+          text: "Embrace AI-Assisted Development",
+        },
+        {
+          type: "paragraph",
+          text: "AI coding assistants have become essential tools for JavaScript developers. GitHub Copilot X and Amazon CodeWhisperer 3.0 can now understand complex project contexts and generate not just code snippets but entire components with proper architecture.",
+        },
+        {
+          type: "quote",
+          text: "The best JavaScript developers in 2025 aren't those who memorize syntax, but those who understand architectural patterns and can effectively direct AI to generate robust, maintainable code.",
+          author: "Mia Johnson, CTO at TechForward",
+        },
+        {
+          type: "heading",
+          text: "Focus on Performance Optimization",
+        },
+        {
+          type: "paragraph",
+          text: "With web applications becoming increasingly complex, understanding how to optimize JavaScript performance is more important than ever. Learn about Web Workers, the new SharedArrayBuffer improvements, and how to efficiently use the browser's rendering pipeline.",
+        },
+        {
+          type: "paragraph",
+          text: "By following these guidelines and dedicating consistent time to practice, you can become proficient in JavaScript even in the complex development landscape of 2025.",
+        },
+      ],
+    },
+    // "how-to-learn-javascript-2025": {
+    //   title: "How to Learn JavaScript in 2025",
+    //   date: "October 16, 2025",
+    //   author: "Alex Chen",
+    //   authorImage: "/author.jpg",
+    //   coverImage: "/coder.avif",
+    //   category: "JavaScript",
+    //   readTime: "8 min read",
+    //   content: [
+    //     {
+    //       type: "paragraph",
+    //       text: "JavaScript continues to evolve rapidly, and in 2025, it remains one of the most essential skills for web developers. With the release of ECMAScript 2025, new features have made the language even more powerful and developer-friendly.",
+    //     },
+    //     {
+    //       type: "heading",
+    //       text: "Start with the Fundamentals",
+    //     },
+    //     {
+    //       type: "paragraph",
+    //       text: "Despite all the frameworks and libraries available, understanding core JavaScript concepts is still crucial. Variables, functions, loops, and objects form the backbone of your JavaScript knowledge.",
+    //     },
+    //     {
+    //       type: "code",
+    //       language: "javascript",
+    //       text: `// Modern variable declarations
+    //         const user = {
+    //         name: 'Sarah',
+    //         skills: ['JavaScript', 'React', 'Node.js'],
+    //         isActive: true
+    //         };
+
+    //         // Using optional chaining and nullish coalescing
+    //         const skill = user?.skills[0] ?? 'No skills found';
+
+    //         // Using modern array methods
+    //         const activeSkills = user.skills.filter(skill => 
+    //         skill.startsWith('R')).map(skill => skill.toUpperCase());
+    //         `,
+    //     },
+    //     {
+    //       type: "heading",
+    //       text: "Learn Modern Frameworks",
+    //     },
+    //     {
+    //       type: "paragraph",
+    //       text: "After mastering the basics, dive into frameworks like React 20, Angular 17, or Vue 5. These frameworks have evolved significantly since their earlier versions and offer powerful tools for building complex applications.",
+    //     },
+    //     {
+    //       type: "image",
+    //       src: "/framework.jpg",
+    //       alt: "Modern JavaScript frameworks",
+    //       caption:
+    //         "The JavaScript framework landscape has evolved dramatically by 2025",
+    //     },
+    //     {
+    //       type: "heading",
+    //       text: "Embrace AI-Assisted Development",
+    //     },
+    //     {
+    //       type: "paragraph",
+    //       text: "AI coding assistants have become essential tools for JavaScript developers. GitHub Copilot X and Amazon CodeWhisperer 3.0 can now understand complex project contexts and generate not just code snippets but entire components with proper architecture.",
+    //     },
+    //     {
+    //       type: "quote",
+    //       text: "The best JavaScript developers in 2025 aren't those who memorize syntax, but those who understand architectural patterns and can effectively direct AI to generate robust, maintainable code.",
+    //       author: "Mia Johnson, CTO at TechForward",
+    //     },
+    //     {
+    //       type: "heading",
+    //       text: "Focus on Performance Optimization",
+    //     },
+    //     {
+    //       type: "paragraph",
+    //       text: "With web applications becoming increasingly complex, understanding how to optimize JavaScript performance is more important than ever. Learn about Web Workers, the new SharedArrayBuffer improvements, and how to efficiently use the browser's rendering pipeline.",
+    //     },
+    //     {
+    //       type: "paragraph",
+    //       text: "By following these guidelines and dedicating consistent time to practice, you can become proficient in JavaScript even in the complex development landscape of 2025.",
+    //     },
+    //   ],
+    // },
     // Additional blog posts could be defined here
   };
 
